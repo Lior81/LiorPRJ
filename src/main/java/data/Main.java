@@ -2,7 +2,15 @@ package data;
 
 import com.sun.org.apache.xpath.internal.SourceTree;
 import com.sun.xml.internal.ws.message.source.PayloadSourceMessage;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
+@EqualsAndHashCode
+@AllArgsConstructor
+@Data
+@NoArgsConstructor
 /**
  * Created by student15 on 30/11/2016.
  */
@@ -18,7 +26,6 @@ public class Main {
 
 
     }
-
 
 
 
